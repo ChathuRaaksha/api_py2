@@ -30,4 +30,4 @@ jobs:
 
     - name: Deploy to Azure Web App
       run: |
-        az webapp up --name algorithm --resource-group algorithm_group --plan ASP-MAPTapigroupad16-a782 --sku B1 --runtime "PYTHON|3.9" --os-type Linux
+        az webapp up --name apisvm --resource-group apisvm --plan ASP-MAPTapigroupad16-a782 --sku B1 --runtime "PYTHON|3.9" --os-type Linux
